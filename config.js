@@ -20,7 +20,7 @@ module.exports = {
         prefix: process.env.prefix || "r!",
         invite: "https://discord.com/oauth2/authorize?client_id={clientId}&permissions=137775017040&scope=bot%20applications.commands",
         server_support: process.env.server_support || " https://discord.gg/uY6zSGkwu6",
-        support_server_id: process.env.support_server_id || "1125249089886486672",
+        support_server_id: process.env.support_server_id || "",
         status_channel_id: process.env.status_channel_id || "https://discord.gg/uY6zSGkwu6",
         report_channel_id: process.env.report_channel_id || "https://discord.gg/uY6zSGkwu6"
     },
